@@ -7,6 +7,7 @@ gem 'rails', '~> 4.1.9'
 gem 'sqlite3'
 gem 'rake', '~> 10.4.2'
 gem 'rdoc', '~> 4.2.0'
+gem 'mysql2'
 
 # simulate environment variables
 gem 'dotenv-rails', '~> 2.0.2', :require => 'dotenv/rails-now'
@@ -68,6 +69,7 @@ group :development, :test do
   gem 'capistrano-bundler', '~> 1.1.4', require: false
   gem 'capistrano-rails', '~> 1.1.2', require: false
   gem 'capistrano-rvm', '~> 0.1.2', require: false
+  gem 'capistrano-passenger'
   gem 'highline', '~> 1.7.2', require: false
   gem 'awesome_print', '~> 1.6.1'
   gem 'codeclimate-test-reporter', '~> 0.4.6'
