@@ -7,6 +7,7 @@ gem 'rails', '~> 4.1.9'
 gem 'sqlite3'
 gem 'rake', '~> 10.4.2'
 gem 'rdoc', '~> 4.2.0'
+gem 'mysql2'
 
 # simulate environment variables
 gem 'dotenv-rails', '~> 2.0.2', :require => 'dotenv/rails-now'
@@ -66,6 +67,7 @@ group :development, :test do
   gem 'guard-livereload', '~> 2.4.0'
   gem 'capistrano', '3.4.0', require: false
   gem 'capistrano-bundler', '~> 1.1.4', require: false
+  gem 'capistrano-passenger'
   gem 'capistrano-rails', '~> 1.1.2', require: false
   gem 'capistrano-rvm', '~> 0.1.2', require: false
   gem 'highline', '~> 1.7.2', require: false
